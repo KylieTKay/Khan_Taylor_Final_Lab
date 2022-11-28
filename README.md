@@ -23,6 +23,7 @@ main
 div.tk_lightbox
 div.tk_images
 div.tk_readme
+div.tk_finalize
 
 ## License
 MIT License
