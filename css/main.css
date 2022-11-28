@@ -163,14 +163,24 @@ footer {
   display: none;
 }
 
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+#lightbox_korea {  background-image: url('../images/light_box/WC_Squads_South_Korea.jpg') ;
+color: black;
+background-size: 100vw;
+background-position: top;
+}
+
+#lightbox_ghana { background-image: url('../images/light_box/WC_Squads_Ghana.jpg'); 
+  color: black;
+  background-size: 100vw;
+  background-position: top;
+}
 
 .lightbox_close {
   position: relative;
   top: 20px;
   left: 95%;
 
-  color: white;
+  color: black;
   font-size: 3em;
 
   text-decoration: none;
@@ -181,8 +191,10 @@ footer {
 .lightbox_close:hover { opacity: 0.5; color: red; }
 
 .lightbox article {
-  width: 55%;
-  margin-left: 40%;
+  width: 30%;
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.589);
+  margin-left: 1000px;
   padding-top: 50px;
 }
 
@@ -191,7 +203,7 @@ footer {
 .lb_text {
   line-height: 1.6 !important;
   margin-left: 0;
-  padding-top: 2em;
+  padding-top: 10px;
 }
 
 /* turn the lightbox on using the :target pseudo selector */
