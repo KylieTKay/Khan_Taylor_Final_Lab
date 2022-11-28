@@ -41,7 +41,7 @@ header {
   height: 330px;
   margin: 10px 8px;
 
-  background-color: black;
+  background-color: white;
 
   text-align: left;
 
@@ -49,27 +49,11 @@ header {
 }
 
 .characters li h5 {
-  color: white;
+  color: black;
   padding: 12px 8px;
 }
 
 .characters li a { text-decoration: none; }
-
-.selected {
-  width: 250px;
-  height: 330px;
-  position: absolute;
-  top: 120px;
-}
-
-.selected:checked::after {
-  background-color: rgba(128, 128, 128, 0.32);
-  width: 250px;
-  height: 330px;
-  font-size: 300px;
-  position: absolute;
-  top: 120px;
-}
 
 .red_bumper {
   width: 250px;
