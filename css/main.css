@@ -38,7 +38,7 @@ header {
 
 .characters li { 
   display: inline-block;
-  height: 220px;
+  height: 330px;
   margin: 10px 8px;
 
   background-color: black;
@@ -55,11 +55,28 @@ header {
 
 .characters li a { text-decoration: none; }
 
+.selected {
+  width: 250px;
+  height: 330px;
+  position: absolute;
+  top: 120px;
+}
+
+.selected:checked::after {
+  background-color: rgba(128, 128, 128, 0.32);
+  width: 250px;
+  height: 330px;
+  font-size: 300px;
+  position: absolute;
+  top: 120px;
+}
+
 .red_bumper {
-  width: 100%;
+  width: 250px;
   height: 6px;
   background-color: red;
 }
+
 
 article { 
   padding: 20px;
@@ -80,19 +97,52 @@ article p {
 }
 
 .sprite {
-  width: 150px;
-  height: 150px;
-  
-  background-image: url('../images/marvelSprites.jpg');
+  width: 250px;
+  height: 274px;
 }
 
-#carol { background-position: -150px 0; }
-#clint { background-position: -300px 0; }
-#hulk { background-position: -450px 0; }
-#thor { background-position: -600px 0; }
-#widow { background-position: -750px 0; }
+#korea { 
+  background: url(../images/flags/korea.png);
+  background-position: -250px 0; 
+}
+#ghana { 
+  background: url(../images/flags/ghana.png);
+  background-position: -250px 0; 
+}
+#japan { 
+  background: url(../images/flags/japan.png);
+  background-position: -250px 0; 
+}
+#brazil { 
+  background: url(../images/flags/brazil.png);
+  background-position: -250px 0; 
+}
 
-.sprite:hover { background-position-y: -150px !important; }
+#korea:hover {
+  animation: fadeIn 0.8s;
+ 
+  background: url(../images/sprite_hover/flags_0001_bw_korea.png.png);
+  background-position: -250px 0; 
+}
+#ghana:hover {
+  animation: fadeIn 0.8s;
+ 
+  background: url(../images/sprite_hover/flags_0003_bw_ghana.png.png);
+  background-position: -250px 0; 
+}
+#japan:hover {
+  animation: fadeIn 0.8s;
+ 
+  background: url(../images/sprite_hover/flags_0002_bw_japan.png.png);
+  background-position: -250px 0; 
+}
+#brazil:hover {
+  animation: fadeIn 0.8s;
+
+  background: url(../images/sprite_hover/flags_0000_bw_brazil.png.png);
+  background-position: -250px 0; 
+}
+
 
 /* footer rules here */
 footer {
@@ -162,3 +212,8 @@ footer {
 
 /* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
