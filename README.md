@@ -1,19 +1,28 @@
 # Khan_Taylor_Final_Lab
- 1-page app about the World Cup
+1-page app about the World Cup
 
-## Installation
-TODO: Describe the installation process
+### Teams
+
+Korea and Ghana:
+
+both teams have activated lightboxes.
+
+Japan and Brazil are extra flags to meet requirements
+
 ## Usage
-TODO: Write usage instructions
+
+Click on each flag to learn more about the teams
+
 ## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
+Taylor Khan
+
+I tried to use 2 github accounts but when working on the local files they only commited using 1 account.
+
+## Branches
+main
+div.tk_lightbox
+div.tk_images
+div.tk_readme
+
 ## License
-TODO: Write license
+MIT License
